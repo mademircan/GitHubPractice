@@ -31,6 +31,18 @@ public class Mustafa_Task1 {
                 WebElement searchBox = driver.findElement(By.name("search_query"));
                 searchBox.sendKeys("wooden spoon" + Keys.ENTER);
 
+                System.out.println("Thanks for all");
+
 
         }
+
+
 }
+/*
+TC #1: Etsy Title Verification
+1. Open Chrome browser
+2. Go to https://www.etsy.com
+3. Search for “wooden spoon”
+4. Verify title:
+Expected: “Wooden spoon | Etsy
+ */
