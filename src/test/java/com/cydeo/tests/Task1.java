@@ -1,12 +1,12 @@
 package com.cydeo.tests;
 
+import com.cydeo.utilities.Driver;
 import org.testng.annotations.Test;
-
-import java.sql.Driver;
 
 public class Task1 {
     @Test
     public void OpenBrowser(){
+        Driver.getDriver().get("https://www.etsy.com");
 
         
     }
