@@ -10,7 +10,7 @@ public class Task1 {
     public void OpenBrowser(){
         Driver.getDriver().get("https://www.etsy.com");
         WebElement searchButton = Driver.getDriver().findElement(By.xpath("//input[@id='global-enhancements-search-query']"));
-        searchButton.sendKeys("wodoon spoon");
+        searchButton.sendKeys("wooden spoon");
 
         
     }
