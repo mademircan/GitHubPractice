@@ -32,6 +32,7 @@ public class Mustafa_Task1 {
                 searchBox.sendKeys("wooden spoon" + Keys.ENTER);
 
                 System.out.println("Thanks for all");
+                System.out.println("Thanks for all2");
 
 
         }
