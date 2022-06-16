@@ -33,6 +33,7 @@ public class Mustafa_Task1 {
 
                 System.out.println("Thanks for all");
                 System.out.println("Thanks for all2");
+                System.out.println("Thanks for all2");
 
 
         }
