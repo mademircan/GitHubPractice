@@ -1,13 +1,16 @@
 package com.cydeo.tests;
 
 import com.cydeo.utilities.Driver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class Task1 {
     @Test
     public void OpenBrowser(){
         Driver.getDriver().get("https://www.etsy.com");
-
+        WebElement searchButton = Driver.getDriver().findElement(By.xpath("//input[@id='global-enhancements-search-query']"));
+        searchButton.sendKeys("wodin spun");
         
     }
 
