@@ -31,6 +31,8 @@ public class Mustafa_Task1 {
                 WebElement searchBox = driver.findElement(By.name("search_query"));
                 searchBox.sendKeys("wooden spoon" + Keys.ENTER);
 
+                System.out.println("Thanks for all");
+
 
         }
 }
