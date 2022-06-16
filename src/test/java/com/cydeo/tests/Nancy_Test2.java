@@ -36,7 +36,7 @@ public class Nancy_Test2 {
         Thread.sleep(2000);
         checkbox2.click();
 
-        //6. Confirm checkbox #1 is SELECTED.
+        //6. Confirm checkbox #1 is SELECTED..
         System.out.println("checkbox1.isSelected(), expecting true = " + checkbox1.isSelected());
 
         //7. Confirm checkbox #2 is NOT selected.
