@@ -15,6 +15,7 @@ public class Task1 {
 
         System.out.println("This is a test for pull request");
         System.out.println("Second try");
+        System.out.println("");
         
     }
 
